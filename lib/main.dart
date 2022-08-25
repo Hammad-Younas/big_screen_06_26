@@ -68,8 +68,8 @@ class _BigScreenState extends State<BigScreen> {
         child: Scaffold(
           body: SingleChildScrollView(
             child: Column(
-              // crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text("This is just demo"),
                 Center(
                   child: Container(
                     margin: EdgeInsets.only(top: 20),
